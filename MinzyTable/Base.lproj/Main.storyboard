@@ -16,18 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-vZ-Mlc">
-                                <rect key="frame" x="0.0" y="0.0" width="423" height="896"/>
+                            <tableView clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="JW0-vZ-Mlc">
+                                <rect key="frame" x="10" y="10" width="414" height="876"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationLevel="-1" indentationWidth="10" reuseIdentifier="Type1" rowHeight="132" id="xaA-hd-rHr" customClass="Type1" customModule="MinzyTable" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="132"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xaA-hd-rHr" id="6jZ-fp-pmD" customClass="Type1" customModule="MinzyTable" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="132"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12D-Je-orj">
+                                                    <rect key="frame" x="25" y="30" width="365" height="71"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="12D-Je-orj" firstAttribute="leading" secondItem="6jZ-fp-pmD" secondAttribute="leadingMargin" constant="20" id="Dni-We-yXC"/>
+                                                <constraint firstItem="12D-Je-orj" firstAttribute="top" secondItem="6jZ-fp-pmD" secondAttribute="topMargin" constant="20" id="F7j-GD-q1H"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="12D-Je-orj" secondAttribute="bottom" constant="20" id="RcS-Qy-tEd"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="12D-Je-orj" secondAttribute="trailing" constant="20" id="ofA-bu-Z4M"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
+                                        <connections>
+                                            <outlet property="LabelText" destination="12D-Je-orj" id="iQ4-1D-959"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="JW0-vZ-Mlc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="A5g-dt-lXu"/>
-                            <constraint firstAttribute="bottom" secondItem="JW0-vZ-Mlc" secondAttribute="bottom" id="J2I-RP-R5r"/>
-                            <constraint firstItem="JW0-vZ-Mlc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oXt-pQ-vCt"/>
-                            <constraint firstAttribute="trailing" secondItem="JW0-vZ-Mlc" secondAttribute="trailing" constant="-9" id="yFr-WM-f6Z"/>
+                            <constraint firstItem="JW0-vZ-Mlc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="Foy-hP-T7d"/>
+                            <constraint firstAttribute="bottom" secondItem="JW0-vZ-Mlc" secondAttribute="bottom" constant="10" id="ImJ-Is-rc9"/>
+                            <constraint firstItem="JW0-vZ-Mlc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="XaH-Ae-5ao"/>
+                            <constraint firstItem="JW0-vZ-Mlc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Zcq-pl-Mif"/>
                         </constraints>
                     </view>
                     <connections>
