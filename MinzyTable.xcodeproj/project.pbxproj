@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42047052275F07CB0086A49B /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42047051275F07CB0086A49B /* NewsDetailController.swift */; };
 		42430086275B727700FCA493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42430085275B727700FCA493 /* AppDelegate.swift */; };
 		42430088275B727700FCA493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42430087275B727700FCA493 /* SceneDelegate.swift */; };
 		4243008A275B727700FCA493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42430089275B727700FCA493 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42047051275F07CB0086A49B /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
 		42430082275B727700FCA493 /* MinzyTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinzyTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42430085275B727700FCA493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42430087275B727700FCA493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				42430096275B727800FCA493 /* Info.plist */,
 				4243008E275B727700FCA493 /* MinzyTable.xcdatamodeld */,
 				4243009C275B796500FCA493 /* Type1.swift */,
+				42047051275F07CB0086A49B /* NewsDetailController.swift */,
 			);
 			path = MinzyTable;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				4243008A275B727700FCA493 /* ViewController.swift in Sources */,
 				42430086275B727700FCA493 /* AppDelegate.swift in Sources */,
 				42430090275B727700FCA493 /* MinzyTable.xcdatamodeld in Sources */,
+				42047052275F07CB0086A49B /* NewsDetailController.swift in Sources */,
 				42430088275B727700FCA493 /* SceneDelegate.swift in Sources */,
 				4243009D275B796500FCA493 /* Type1.swift in Sources */,
 			);
