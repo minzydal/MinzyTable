@@ -80,7 +80,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     // 1. 디테일 (상세) 화면 감지
-    // 2. 값을 보내기
+    // 2. 값을 보내기 2가지
     // 3. 화면 이동
     
     
