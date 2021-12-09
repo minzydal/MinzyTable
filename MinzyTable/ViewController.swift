@@ -81,7 +81,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // 1. 디테일 (상세) 화면 감지
     // 2. 값을 보내기 2가지
-    // 1) tableview delegate // 2) storyboard
+    // 1) tableview delegate // 2) storyboard (segue)
     // 3. 화면 이동
     
     
