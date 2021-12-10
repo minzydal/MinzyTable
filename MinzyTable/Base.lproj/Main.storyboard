@@ -44,6 +44,7 @@
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                                         <connections>
                                             <outlet property="LabelText" destination="12D-Je-orj" id="iQ4-1D-959"/>
+                                            <segue destination="FQP-WY-Wcm" kind="show" trigger="accessoryAction" id="WHb-Gu-Ww1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -76,13 +77,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AU6-73-rHv">
-                                <rect key="frame" x="31" y="73" width="353" height="150"/>
+                                <rect key="frame" x="31" y="117" width="353" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Qja-1I-pgB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhz-op-ab9">
-                                <rect key="frame" x="31" y="249" width="353" height="20.5"/>
+                                <rect key="frame" x="31" y="293" width="353" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -101,6 +102,7 @@
                             <constraint firstItem="hhz-op-ab9" firstAttribute="top" secondItem="AU6-73-rHv" secondAttribute="bottom" constant="26" id="oFi-RL-pJ8"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="OiB-Ci-Oz8"/>
                     <connections>
                         <outlet property="ImageMain" destination="AU6-73-rHv" id="WUb-hK-hWj"/>
                         <outlet property="LabelMain" destination="hhz-op-ab9" id="VXE-x6-Vzu"/>
