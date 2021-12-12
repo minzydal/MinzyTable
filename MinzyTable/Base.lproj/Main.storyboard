@@ -99,7 +99,7 @@
                             <constraint firstItem="7HE-rW-WBk" firstAttribute="leading" secondItem="zxa-pv-Cyp" secondAttribute="leading" constant="31" id="anB-tV-ecQ"/>
                             <constraint firstItem="7HE-rW-WBk" firstAttribute="top" secondItem="AU6-73-rHv" secondAttribute="bottom" constant="8" symbolic="YES" id="i0Y-Lf-52d"/>
                             <constraint firstItem="zxa-pv-Cyp" firstAttribute="trailing" secondItem="AU6-73-rHv" secondAttribute="trailing" constant="30" id="nl4-Fe-9vR"/>
-                            <constraint firstItem="zxa-pv-Cyp" firstAttribute="bottom" secondItem="7HE-rW-WBk" secondAttribute="bottom" constant="566.5" id="qal-pN-0rS"/>
+                            <constraint firstItem="zxa-pv-Cyp" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="7HE-rW-WBk" secondAttribute="bottom" constant="16" id="qal-pN-0rS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OiB-Ci-Oz8"/>
