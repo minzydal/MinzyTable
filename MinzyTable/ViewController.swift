@@ -74,11 +74,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    //옵션 - 클릭 감지
+    //1. 옵션 - 클릭 감지
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("CLICK !!! \(indexPath.row)")
     }
     
+    //2. 세그웨이 : 부모(가나다)-자식(가나다)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let id = segue.identifier, "NewsDetail" == id {
+            if let controller = segue.destination as? NewsDetailController {
+                
+                if let news = newsData{
+                    
+                    
+                }
+                controller.imageUrl = "urlToImage"
+                controller.desc = "description"
+            }
+        }
+    }
     // 1. 디테일 (상세) 화면 감지
     // 2. 값을 보내기 2가지
     // 1) tableview delegate // 2) storyboard (segue)
