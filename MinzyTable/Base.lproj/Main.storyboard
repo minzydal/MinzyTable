@@ -44,7 +44,7 @@
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                                         <connections>
                                             <outlet property="LabelText" destination="12D-Je-orj" id="iQ4-1D-959"/>
-                                            <segue destination="FQP-WY-Wcm" kind="show" trigger="accessoryAction" id="WHb-Gu-Ww1"/>
+                                            <segue destination="FQP-WY-Wcm" kind="show" identifier="NewsDetail" trigger="accessoryAction" id="WHb-Gu-Ww1"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -82,7 +82,7 @@
                                     <constraint firstAttribute="height" constant="150" id="Qja-1I-pgB"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HE-rW-WBk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HE-rW-WBk">
                                 <rect key="frame" x="31" y="275" width="353" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>

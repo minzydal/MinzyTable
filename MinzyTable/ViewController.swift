@@ -74,7 +74,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    //클릭 감지
+    //옵션 - 클릭 감지
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("CLICK !!! \(indexPath.row)")
     }
@@ -82,7 +82,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // 1. 디테일 (상세) 화면 감지
     // 2. 값을 보내기 2가지
     // 1) tableview delegate // 2) storyboard (segue)
-    // 3. 화면 이동
+    // 3. 화면 이동 (이동하기 전에 값을 미리 세팅해야한다!!!)
     
     
     override func viewDidLoad() {
